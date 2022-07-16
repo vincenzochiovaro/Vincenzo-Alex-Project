@@ -7,3 +7,10 @@
     left: 50px;
     transform: translate(-50, -50);
 }
+#nav{
+    background-color: white;
+}
+
+#showcase{
+    background-color: #57c6d4;
+}
