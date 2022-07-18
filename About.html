@@ -9,117 +9,189 @@
 		<title>GetYourQuote</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<title>Bootstrap demo</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.0/font/bootstrap-icons.css">
 		<link rel="stylesheet" href="css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
+
 	<body class="is-preload">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>GetYourQuote</strong></a>
-					</header>
+				<!--NAV-->
+				<nav id="nav" class="navbar navbar-expand-lg  navbar-light py-2 fixed-top">
+					<div class="container">
+						<a href="#" class="navbar-brand"><h3><u>About Us</u></h3></a>
 
-				<!-- Menu -->
-					
+						<button 
+						class="navbar-toggler" 
+						type="button" data-bs-toggle="collapse" 
+						data-bs-target="#menu">
+						<span class="navbar-toggler-icon"></span>
+						</button>
 
-				<!-- Main -->
-					<div id="main" class="alt">
+						<div id="menu" class="collapse navbar-collapse">
+							<ul class="navbar-nav ms-auto">
+								<li class="nav-item">
+									<a href="https://github.com/xAlpolox" class="nav-link">Alex</a>
+								</li>
+								<li class="nav-item">
+									<a href="https://github.com/vincenzochiovaro" class="nav-link">Vicenso</a>
 
-						<!-- One -->
-							<section id="one">
-								<div class="inner">
-									<header class="major">
-										<h1>Joint Project:</h1>
-									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
-								</div>
-							</section>
+								</li>
+								<li class="nav-item">
+									<button class="btn btn-warning btn-sm mx-3">Contact Us</button>
 
+								</li>
+							</ul>
+						</div>
 					</div>
 
-				<!-- Contact -->
-					<section id="contact">
-						<div class="inner">
-							<section>
-								<form method="post" action="#">
-									<div class="fields">
-										<div class="field half">
-											<label for="name">Name</label>
-											<input type="text" name="name" id="name" />
-										</div>
-										<div class="field half">
-											<label for="email">Email</label>
-											<input type="text" name="email" id="email" />
-										</div>
-										<div class="field">
-											<label for="message">Message</label>
-											<textarea name="message" id="message" rows="6"></textarea>
-										</div>
-									</div>
-									<ul class="actions">
-										<li><input type="submit" value="Send Message" class="primary" /></li>
-										<li><input type="reset" value="Clear" /></li>
-									</ul>
-								</form>
-							</section>
-							<section class="split">
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-envelope"></span>
-										<h3>Email</h3>
-										<a href="#">information@untitled.tld</a>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-phone"></span>
-										<h3>Phone</h3>
-										<span>(000) 000-0000 x12387</span>
-									</div>
-								</section>
-								<section>
-									<div class="contact-method">
-										<span class="icon solid alt fa-home"></span>
-										<h3>Address</h3>
-										<span>1234 Somewhere Road #5432<br />
-										Nashville, TN 00000<br />
-										United States of America</span>
-									</div>
-								</section>
-							</section>
-						</div>
-					</section>
+				</nav>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<div class="inner">
-							<ul class="icons">
-								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							
+				<!-- Header/Showcase -->
+				<section id="showcase" class="text-dark p-5 text-center text-sm-start">
+					<div class="container">
+						<div class="d-sm-flex align-items-center justify-content-between">
+							<div>
+								<a href="index.html" class="nav-link "><h1 class="display-3">Get Your <span class="text-warning">Quote!</span></h1></a>
+								<p class="lead my-4">Enjoy our first collaboration as Web Developers, where we present to you a fully functional and interactive website.</p>
+							</div>
+							<div class="text-lg-end">
+								<img class="img-fluid rounded w-55 ms-auto d-none d-sm-block" src="img/laptop.png" alt="laptop">
+							</div>
 						</div>
-					</footer>
+					</div>
+				</section>
+				
+				<!--Info Cards-->
+				<section class="p-5">
+					<div class="container">
+						<div class="row text-center g-4">
+							<div class="col-md">
+								<div class="card bg-warning text-dark">
+									<div class="card-body text-center">
+										<div class="mb-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-code-square" viewBox="0 0 16 16">
+												<path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+												<path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+											  </svg>
+											</div>
+										<h5 class="card-title mb-3">From Scratch!</h5>
+										<p class="card-text">We coded this project from start to finish: the html, styles and javascript code.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md">
+								<div class="card bg-warning text-dark">
+									<div class="card-body text-center">
+										<div class="mb-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-bootstrap" viewBox="0 0 16 16">
+												<path d="M5.062 12h3.475c1.804 0 2.888-.908 2.888-2.396 0-1.102-.761-1.916-1.904-2.034v-.1c.832-.14 1.482-.93 1.482-1.816 0-1.3-.955-2.11-2.542-2.11H5.062V12zm1.313-4.875V4.658h1.78c.973 0 1.542.457 1.542 1.237 0 .802-.604 1.23-1.764 1.23H6.375zm0 3.762V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377H6.375z"/>
+												<path d="M0 4a4 4 0 0 1 4-4h8a4 4 0 0 1 4 4v8a4 4 0 0 1-4 4H4a4 4 0 0 1-4-4V4zm4-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3H4z"/>
+											  </svg>
+										</div>
+										<h5 class="card-title mb-3">Bootstrap</h5> 
+										<p class="card-text">Powered by Bootstrap our website is fully responsive and visualy pleasent.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md">
+								<div class="card bg-warning text-dark">
+									<div class="card-body text-center">
+										<div class="mb-4">
+											<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="white" class="bi bi-server" viewBox="0 0 16 16">
+												<path d="M1.333 2.667C1.333 1.194 4.318 0 8 0s6.667 1.194 6.667 2.667V4c0 1.473-2.985 2.667-6.667 2.667S1.333 5.473 1.333 4V2.667z"/>
+												<path d="M1.333 6.334v3C1.333 10.805 4.318 12 8 12s6.667-1.194 6.667-2.667V6.334a6.51 6.51 0 0 1-1.458.79C11.81 7.684 9.967 8 8 8c-1.966 0-3.809-.317-5.208-.876a6.508 6.508 0 0 1-1.458-.79z"/>
+												<path d="M14.667 11.668a6.51 6.51 0 0 1-1.458.789c-1.4.56-3.242.876-5.21.876-1.966 0-3.809-.316-5.208-.876a6.51 6.51 0 0 1-1.458-.79v1.666C1.333 14.806 4.318 16 8 16s6.667-1.194 6.667-2.667v-1.665z"/>
+											  </svg>
+											 
+										</div>
+										  <h5 class="card-title mb-3">API</h5>
+										  <p class="card-text">We implemented some API to share content on Social Networks :)</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
 
+				<!--Purpose Section-->
+				<section class="p-5">
+					<div class="container">
+						<div class="row align-items-center justify-content-between">
+							<div class="col-md">
+								<img src="img/cmd.png" alt="coding" class="img-fluid">
+							</div>
+							<div class="col-md p-5">
+								<div class="col-md col-sm-12 ">
+									<h2>Our Purpose</h2>
+									<p class="lead">When it comes to building a website, passion and work ethics have the most potential to make it shine and set it apart from everything else on the internet. That's why we aim to convey the creative passion behind our work in the best way possible. </p>
+									<p>Why famous Quotes? A good Quote can be the heart of a compelling article. Good quotes help to tell a story and enhance the credibility of a press release, news or speech. Words that are crafted well leave a lasting impact on the world. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--Developers: -->
+				<section id="developers" class="p-5">
+					<div class="text-center">
+						<h2 class="p-5">The Developers:</h2>
+					</div>
+					<div class="container">
+						<div class="row text-center g-6">
+							<div class="col-md mb-4">
+								<div class="card text-dark">
+									<div class="card-body bg-light text-center rounded">
+										<div class="card-body text-center">
+										<img src="img/vicenso.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">	 
+										<h3 class="card-title mb-3">Vincenzo Chiovaro</h3> 
+										<p class="card-text">Web Developer with extensive knowledge on HTML, Bootstrap and JavaScript. Experienced leader.</p>
+										<a href=" https://www.linkedin.com/in/vincenzo-chiovaro-22258a176" target="_blank"><i class="bi bi-linkedin px-1"></i></a>
+										<a href="https://github.com/vincenzochiovaro" target="_blank"><i class="bi bi-github px-1 text-dark"></i></a>
+
+										</div>
+									</div>	
+								</div>
+							</div>
+
+							<div class="col-md mb-4">
+								<div class="card text-dark">
+									<div class="card-body bg-light text-center rounded">
+										<div class="card-body text-center">
+											<img src="img/Alex.jpg" alt="" class="img-fluid w-50 rounded-circle mb-3">
+											<h3 class="card-title mb-3">Alex Garcia</h3>
+											<p class="card-text">Web/Software Developer specialized in JavaScript, Python and C#. Love to learn.</p>
+											<a href="https://www.linkedin.com/in/alex-garcia-del-valle-378431122" target="_blank"><i class="bi bi-linkedin px-1"></i></a>
+											<a href="https://github.com/xAlpolox" target="_blank"><i class="bi bi-github px-1 text-dark"></i></a>
+											
+										</div>
+									
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<!--Footer: -->
+				<footer class="p-5 text-dark text-center position-relative">
+					<div class="container" >
+						<p class="lead"> Copyright &copy; 2022 GetYourQuote!</p>
+						<a href="#" class="position-absolute bottom-0 end-0 p-5">
+							<i class="bi bi-arrow-up-circle h1"></i>
+						</a>
+					</div>
+				</footer>
+
+					
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
 	</body>
 </html>
