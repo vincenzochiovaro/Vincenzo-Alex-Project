@@ -22,3 +22,8 @@ body::before{
 #developers{
     background-color: #57c6d4;
 }
+
+#carouselbtn, #carouselbtn2{
+    border-radius: 2px;
+    text-decoration-color: #57c6d4;
+}
