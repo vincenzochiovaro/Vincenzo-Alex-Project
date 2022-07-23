@@ -42,7 +42,7 @@
 
 								</li>
 								<li class="nav-item">
-									<button class="btn btn-warning btn-sm mx-3">Contact Us</button>
+									<button class="btn btn-warning btn-sm mx-3" data-bs-toggle="modal" data-bs-target="#contact">Contact Us</button>
 
 								</li>
 							</ul>
@@ -187,6 +187,43 @@
 					</div>
 				</footer>
 
+				<!-- Modal -->
+<div class="modal fade" id="contact" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="contactLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title" id="staticBackdropLabel">Modal title</h5>
+		  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		</div>
+		<div class="modal-body">
+		  <form>
+			<div class="mb-3">
+				<label for="first-name" class="col-form-label">
+					First Name:
+				</label>
+				<input type="text" class="form-control" id="firs-tname">
+			</div>
+			<div class="mb-3">
+				<label for="last-name" class="col-form-label">
+					Last Name:
+				</label>
+				<input type="text" class="form-control" id="last-tname">
+			</div>
+			<div class="mb-3">
+				<label for="phone" class="col-form-label">
+					Phone:
+				</label>
+				<input type="text" class="form-control" id="phone">
+			</div>
+		  </form>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+		  <button type="button" class="btn btn-primary">Submit</button>
+		</div>
+	  </div>
+	</div>
+  </div>
 					
 			</div>
 
